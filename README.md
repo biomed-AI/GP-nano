@@ -12,16 +12,14 @@ First we collect protein sequences and use ESMFold(https://github.com/facebookre
 
 
 ## Feature generation and graph construction
-Second we need create conda environment with python3.8 and download the following package:
+Second we need create conda environment with python3.8 and download the following package as requirement.txt :
 1. pytorch
 2. dgl
 3. numpy
 4. pandas
-5. pyg
-6. pykeops
-7. biopython
+5. pykeops
+6. biopython
 
 Then, we use build_graph_nanobody.py to get feature of every antibody and construct every dgl graph.
-
 ## Train and test
-Finally, we use the dgl graph to train and test model in Model Folder.
+Finally, we use the dgl graph to train and test models in Model Folder.
