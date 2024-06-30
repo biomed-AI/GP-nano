@@ -20,6 +20,7 @@ Second we need create conda environment with python3.8 and download the followin
 5. pyg
 6. pykeops
 7. biopython
+
 Then, we use build_graph_nanobody.py to get feature of every antibody and construct every dgl graph.
 
 ## Train and test
